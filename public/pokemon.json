@@ -57,37 +57,43 @@
         "type": "bug",
         "sleepType": "dozing",
         "specialty": "berries",
-        "ingredients": {"1": "honey", "25":"snoozing tomato", "60": "greengrass soybeans"}
+        "ingredients": {"1": "honey", "25":"snoozy tomato", "60": "greengrass soybeans"}
     },
     "metapod": {
         "type": "bug",
         "sleepType": "dozing",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "honey", "25":"snoozy tomato", "60": "greengrass soybeans"}
     },
     "butterfree": {
         "type": "bug",
         "sleepType": "dozing",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "honey", "25":"snoozy tomato", "60": "greengrass soybeans"}
     },
     "rattata": {
         "type": "normal",
         "sleepType": "snoozing",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "fancy apple", "25":"greengrass soybeans", "60": "bean sausage"}
     },
     "raticate": {
         "type": "normal",
         "sleepType": "snoozing",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "fancy apple", "25":"greengrass soybeans", "60": "bean sausage"}
     },
     "ekans": {
         "type": "poison",
         "sleepType": "dozing",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "bean sausage", "25":"fancy egg", "60": "fiery herb"}
     },
     "arbok": {
         "type": "poison",
         "sleepType": "dozing",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "bean sausage", "25":"fancy egg", "60": "fiery herb"}
     },
     "pikachu": {
         "type": "electric",
@@ -104,22 +110,26 @@
     "clefairy": {
         "type": "fairy",
         "sleepType": "snoozing",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "fancy apple", "25":"honey", "60": "greengrass soybeans"}
     },
     "clefable": {
         "type": "fairy",
         "sleepType": "snoozing",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "fancy apple", "25":"honey", "60": "greengrass soybeans"}
     },
     "vulpix": {
         "type": "fire",
         "sleepType": "snoozing",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "greengrass soybeans", "25":"greengrass corn", "60": "soft potato"}
     },
     "ninetales": {
         "type": "fire",
         "sleepType": "snoozing",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "greengrass soybeans", "25":"greengrass corn", "60": "soft potato"}
     },
     "jigglypuff": {
         "type": "fairy",
@@ -137,160 +147,191 @@
     "diglett": {
         "type": "ground",
         "sleepType": "snoozing",
-        "specialty": "ingredients"
+        "specialty": "ingredients",
+        "ingredients": {"1": "snoozy tomato", "25":"large leek", "60": "greengrass soybeans"}
     },
     "dugtrio": {
         "type": "ground",
         "sleepType": "snoozing",
-        "specialty": "ingredients"
+        "specialty": "ingredients",
+        "ingredients": {"1": "snoozy tomato", "25":"large leek", "60": "greengrass soybeans"}
     },
     "meowth": {
         "type": "normal",
         "sleepType": "snoozing",
-        "specialty": "skills"
+        "specialty": "skills",
+        "ingredients": {"1": "moomoo milk", "25":"bean sausage", "60": "bean sausage"}
     },
     "persian": {
         "type": "normal",
         "sleepType": "snoozing",
-        "specialty": "skills"
+        "specialty": "skills",
+        "ingredients": {"1": "moomoo milk", "25":"bean sausage", "60": "bean sausage"}
     },
     "psyduck": {
         "type": "water",
         "sleepType": "dozing",
-        "specialty": "skills"
+        "specialty": "skills",
+        "ingredients": {"1": "soothing cacao", "25":"fancy apple", "60": "bean sausage"}
     },
     "golduck": {
         "type": "water",
         "sleepType": "slumbering",
-        "specialty": "skills"
+        "specialty": "skills",
+        "ingredients": {"1": "soothing cacao", "25":"fancy apple", "60": "bean sausage"}
     },
     "mankey": {
         "type": "fighting",
         "sleepType": "dozing",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "bean sausage", "25":"tasty mushroom", "60": "honey"}
     },
     "primeape": {
         "type": "fighting",
         "sleepType": "dozing",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "bean sausage", "25":"tasty mushroom", "60": "honey"}
     },
     "growlithe": {
         "type": "fire",
         "sleepType": "snoozing",
-        "specialty": "skills"
+        "specialty": "skills",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     "arcanine": {
         "type": "fire",
         "sleepType": "snoozing",
-        "specialty": "skills"
+        "specialty": "skills",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     "bellsprout": {
         "type": "grass",
         "sleepType": "dozing",
-        "specialty": "ingredients"
+        "specialty": "ingredients",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     "weepinbell": {
         "type": "grass",
         "sleepType": "dozing",
-        "specialty": "ingredients"
+        "specialty": "ingredients",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     "victreebel": {
         "type": "grass",
         "sleepType": "dozing",
-        "specialty": "ingredients"
+        "specialty": "ingredients",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     "geodude": {
         "type": "rock",
         "sleepType": "slumbering",
-        "specialty": "ingredients"
+        "specialty": "ingredients",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     "graveler": {
         "type": "rock",
         "sleepType": "slumbering",
-        "specialty": "ingredients"
+        "specialty": "ingredients",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     "golem": {
         "type": "rock",
         "sleepType": "slumbering",
-        "specialty": "ingredients"
+        "specialty": "ingredients",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     "slowpoke": {
         "type": "water",
         "sleepType": "snoozing",
-        "specialty": "skills"
+        "specialty": "skills",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     "slowbro": {
         "type": "water",
         "sleepType": "snoozing",
-        "specialty": "skills"
+        "specialty": "skills",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     "magnemite": {
         "type": "steel",
         "sleepType": "slumbering",
-        "specialty": "skills"
+        "specialty": "skills",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     "magneton": {
         "type": "steel",
         "sleepType": "slumbering",
-        "specialty": "skills"
+        "specialty": "skills",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     "doduo": {
         "type": "flying",
         "sleepType": "slumbering",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     "dodrio": {
         "type": "flying",
         "sleepType": "slumbering",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     "gastly": {
         "type": "ghost",
         "sleepType": "dozing",
-        "specialty": "ingredients"
+        "specialty": "ingredients",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     "haunter": {
         "type": "ghost",
         "sleepType": "dozing",
-        "specialty": "ingredients"
+        "specialty": "ingredients",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     "gengar": {
         "type": "ghost",
         "sleepType": "dozing",
-        "specialty": "ingredients"
+        "specialty": "ingredients",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     "onix": {
         "type": "rock",
         "sleepType": "slumbering",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     "cubone": {
         "type": "ground",
         "sleepType": "slumbering",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     "marowak": {
         "type": "ground",
         "sleepType": "slumbering",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     
     "kangaskhan": {
         "type": "normal",
         "sleepType": "snoozing",
-        "specialty": "ingredients"
+        "specialty": "ingredients",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     
     "mr-mime": {
         "type": "psychic",
         "sleepType": "snoozing",
-        "specialty": "ingredients"
+        "specialty": "ingredients",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     
     "pinsir": {
         "type": "bug",
         "sleepType": "dozing",
-        "specialty": "ingredients"
+        "specialty": "ingredients",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     
     "ditto": {
@@ -303,109 +344,721 @@
     "eevee": {
         "type": "normal",
         "sleepType": "snoozing",
-        "specialty": "skills"
+        "specialty": "skills",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     
     "vaporeon": {
         "type": "water",
         "sleepType": "slumbering",
-        "specialty": "skills"
+        "specialty": "skills",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     
     "jolteon": {
         "type": "electric",
         "sleepType": "snoozing",
-        "specialty": "skills"
+        "specialty": "skills",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     
     "flareon": {
         "type": "fire",
         "sleepType": "snoozing",
-        "specialty": "skills"
+        "specialty": "skills",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     
     "dratini": {
         "type": "dragon",
         "sleepType": "dozing",
-        "specialty": "ingredients"
+        "specialty": "ingredients",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     
     "dragonair": {
         "type": "dragon",
         "sleepType": "dozing",
-        "specialty": "ingredients"
+        "specialty": "ingredients",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     
     "dragonite": {
         "type": "dragon",
         "sleepType": "dozing",
-        "specialty": "ingredients"
+        "specialty": "ingredients",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     
     "chikorita": {
         "type": "grass",
         "sleepType": "dozing",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     
     "bayleef": {
         "type": "grass",
         "sleepType": "dozing",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     
     "meganium": {
         "type": "grass",
         "sleepType": "dozing",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     
     "cyndaquil": {
         "type": "fire",
         "sleepType": "snoozing",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     
     "quilava": {
         "type": "fire",
         "sleepType": "snoozing",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     
     "typhlosion": {
         "type": "fire",
         "sleepType": "snoozing",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     
     "totodile": {
         "type": "water",
         "sleepType": "slumbering",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     
     "croconaw": {
         "type": "water",
         "sleepType": "slumbering",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     
     "feraligatr": {
         "type": "water",
         "sleepType": "slumbering",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
     
     "pichu": {
         "type": "electric",
         "sleepType": "slumbering",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "", "25":"", "60": ""}
     },
 
+    "cleffa": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },
+    
+    "igglybuff": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },
+    "togepi": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },
+    "togetic": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },
+    "mareep": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },
+    "flaaffy": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },
+    "ampharos": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },
+    "sudowoodo": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },
+    "wooper": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },
+    "quagsire": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },
+    "espeon": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },
+    "umbreon": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },
+    "slowking": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },
+    "wobbuffet": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },
+    "steelix": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },
+    "heracross": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },
+    "sneasel": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },
+    "delibird": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },
+    "houndour": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "houndoom": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "raikou": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },
+    "entei": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "suicune": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "larvitar": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "pupitar": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "tyranitar": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "ralts": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "kirlia": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "gardevoir": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "slakoth": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "vigoroth": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "slaking": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },
+    "sableye": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "aron": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "lairon": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "aggron": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "gulpin": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "swalot": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "swablu": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "altaria": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "shuppet": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "banette": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "absol": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "wynaut": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "spheal": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "sealeo": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "walrein": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "shinx": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "luxio": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "luxray": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "drifloon": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "drifblim": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "bonsly": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "mime jr.": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "riolu": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "lucario": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "croagunk": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "toxicroak": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "snover": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "abomasnow": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "weavile": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "magnezone": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "togekiss": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "leafeon": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "glaceon": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "gallade": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "cresselia": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "munna": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "musharna": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "rufflet": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "braviary": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "sylveon": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "dedenne": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "grubbin": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "charjabug": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
     "vikavolt": {
         "type": "bug",
         "sleepType": "dozing",
         "specialty": "ingredients"
-    }
+    },  
+    "stufful": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "bewear": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "comfey": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "mimikyu": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "cramorant": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "sprigatito": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "floragato": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "meowscarada": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "fuecoco": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "crocalor": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "skeledirge": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "quaxly": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "quaxwell": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "quaquaval": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "pawmi": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "pawmo": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "pawmot": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "clodsire": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "vulpix-alola": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "ninetales-alola": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "wooper-paldea": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    }, 
+    "Pikachu (Halloween)": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "Pikachu (Holiday)": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    },  
+    "Eevee (Holiday)": {
+        "type": "",
+        "sleepType": "",
+        "specialty": "",
+        "ingredients": {"1": "", "25":"", "60": ""}
+    }  
     
 }

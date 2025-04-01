@@ -9,7 +9,7 @@ export default function Home() {
     specialty: "berries",
     type: "electric",
     sleepType: "snoozing",
-    ingredients: {"1": "fancyapple", "25":"warmingginger", "60": "fancyegg"}
+    ingredients: {"1": "fancy apple", "25":"warming ginger", "60": "fancy egg"}
   });
   
   const [selectedSubskills, setSelectedSubskills] = useState({
@@ -28,33 +28,7 @@ export default function Home() {
     level60: "fancy egg",
   });
   const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const fetchPokemonData = async () => {
-      setLoading(true); // Set loading to true at the start of the fetch
-      try {
-        const response = await fetch("/pokemon.json");
-        if (!response.ok) {
-          throw new Error("Failed to fetch Pokémon data");
-        }
-        const data = await response.json();
-        setPokemonData(data);
   
-        // Ensure the default Pokémon is loaded properly
-        if (data.pikachu) {
-          handlePokemonSelect("pikachu", data); // Select the default Pokémon if it's available
-        }
-      } catch (err) {
-        console.error(err.message);
-      } finally {
-        setLoading(false); // Set loading to false after the fetch is completed
-      }
-    };
-  
-    fetchPokemonData();
-  }, []); // Only run once on initial load
-  
-
   const handlePokemonSelect = async (pokemonNameOrEvent) => {
     const pokemonName = typeof pokemonNameOrEvent === "string" 
       ? pokemonNameOrEvent // Direct name when called manually
@@ -72,14 +46,14 @@ export default function Home() {
         specialty: selected?.specialty || "berries",
         type: selected?.type,
         sleepType: selected?.sleepType,
-        ingredients: selected?.ingredients || {}
+        ingredients: selected?.ingredients || {"1": "fancy apple", "25":"warming ginger", "60": "fancy egg"}
       });
   
       setSpecialty(selected?.specialty || "berries");
       setSelectedIngredients({
-        level1: selected?.ingredients[1] || "",
-        level25: selected?.ingredients[1] || "",
-        level60: selected?.ingredients[1] || "",
+        level1: selected?.ingredients?.["1"] || "",
+        level25: selected?.ingredients?.["25"] || "",
+        level60: selected?.ingredients?.["60"] || "",
       });
   
       setLoading(false); // Set loading to false after data is fetched
@@ -88,6 +62,33 @@ export default function Home() {
       setLoading(false); // Ensure loading is stopped even in case of an error
     }
   };
+  
+  useEffect(() => {
+    const fetchPokemonData = async () => {
+      setLoading(true); // Set loading to true at the start of the fetch
+      try {
+        const response = await fetch("/pokemon.json");
+        if (!response.ok) {
+          throw new Error("Failed to fetch Pokémon data");
+        }
+        const data = await response.json();
+        setPokemonData(data);
+  
+        // Ensure the default Pokémon is loaded properly
+        if (data.pikachu) {
+          handlePokemonSelect("pikachu"); // Select the default Pokémon if it's available
+        }
+      } catch (err) {
+        console.error(err.message);
+      } finally {
+        setLoading(false); // Set loading to false after the fetch is completed
+      }
+    };
+  
+    fetchPokemonData();
+  }, []); // Only run once on initial load
+  
+
 
   const getBenefit = (subskillName) => {
     const subskill = SUBSKILLS.find((skill) => skill.name === subskillName);
@@ -188,7 +189,6 @@ export default function Home() {
     return "Due to the different ingredients, this ingredient list is inconsistent and could be difficult to consistently farm the ingredients you are looking for.";
   }
   
-
   return (
     <div className="container">
       <div>
@@ -216,8 +216,14 @@ export default function Home() {
         {/* Pokémon Details */}
         {selectedPokemon && (
           <div className="pokemon-details">
-            {/* <h2>{selectedPokemon.name || "Details"}</h2> */}
-            <img src={selectedPokemon.sprites} alt={selectedPokemon.name} />
+            <h2>{selectedPokemon.name || "Details"}</h2>
+            {selectedPokemon.sprites ? (
+              <img src={selectedPokemon.sprites} alt={selectedPokemon.name} />
+            ) : (
+              <img src="/substitute.png" alt={selectedPokemon.name} />
+            )              
+            }
+            
             <p>Specialty: {selectedPokemon.specialty}</p>
             {/* <p>Type: {selectedPokemon.type}</p>
             <p>Sleep Type: {selectedPokemon.sleepType}</p> */}
@@ -227,7 +233,9 @@ export default function Home() {
 
       <div className="card">
       <h2 className="card-title">Ingredients</h2>
-      {!selectedPokemon || Object.keys(selectedPokemon.ingredients).length === 0 ? (
+      {!selectedPokemon || Object.keys(selectedPokemon.ingredients).length === 0 ? 
+      
+      (
         <div className="loading">Loading...</div>
       ) : (
         <>
@@ -429,7 +437,7 @@ export default function Home() {
       {/* Early Levels Card */}
       <div className="card early-levels">
         <h2>Early Levels</h2>
-        <p>These are the most important levels to look at. When subskills can be unlocked early, you can utilize the benefits of better production for a longer period of time. </p>
+        <p>These are the most important levels to look at. When subskills can be unlocked early, you can utilize the benefits of better production sooner.</p>
         {["lv10", "lv25", "lv50"].map((level) => {
           const selectedSubskill = selectedSubskills[level];
           const benefit = getBenefit(selectedSubskill);
@@ -459,7 +467,8 @@ export default function Home() {
       {/* Late Game Levels Card */}
       <div className="card late-levels">
         <h2>Late Game Levels</h2>
-        <p>These subskills will take a significant amount of time and investment to unlock. It is often not worth investing in if the only revelent subskills are within the late game levels.</p>
+        <p>These subskills will take a significant amount of time and investment to unlock. It is often not worth investing in if the only revelent subskills are within the late game levels since it is likely to find a better Pokemon before unlocking these subskills. </p>
+        <p>However, these can be nice bonuses to look forward to in the future if the early subskills are adequate.</p>
         {["lv75", "lv100"].map((level) => {
           const selectedSubskill = selectedSubskills[level];
           const benefit = getBenefit(selectedSubskill);
