@@ -123,12 +123,15 @@
     "jigglypuff": {
         "type": "fairy",
         "sleepType": "snoozing",
-        "specialty": "skills"
+        "specialty": "skills",
+        "ingredients": {"1": "honey", "25":"pure oil", "60": "soothing cacao"}
     },
     "wigglytuff": {
         "type": "fairy",
         "sleepType": "snoozing",
-        "specialty": "skills"
+        "specialty": "skills",
+        "ingredients": {"1": "honey", "25":"pure oil", "60": "soothing cacao"}
+
     },
     "diglett": {
         "type": "ground",
