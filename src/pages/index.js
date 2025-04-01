@@ -52,7 +52,7 @@ export default function Home() {
     };
   
     fetchPokemonData();
-  }); // Only run once on initial load
+  }, []); // Only run once on initial load
   
 
   const handlePokemonSelect = async (pokemonNameOrEvent) => {

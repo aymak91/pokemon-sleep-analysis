@@ -56,7 +56,8 @@
     "caterpie": {
         "type": "bug",
         "sleepType": "dozing",
-        "specialty": "berries"
+        "specialty": "berries",
+        "ingredients": {"1": "honey", "25":"snoozing tomato", "60": "greengrass soybeans"}
     },
     "metapod": {
         "type": "bug",
