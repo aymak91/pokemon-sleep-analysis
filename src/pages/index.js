@@ -193,7 +193,7 @@ export default function Home() {
     <div className="container">
       <div>
         <h1>Pokémon Sleep Analysis</h1>
-        <p className="intro-paragraph">This is a Sleep Analysis tool meant to help you learn how to self-assess Pokemon that you catch in Pokemon Sleep. Depending on a Pokemon&apos;s specialty, different buffs or debuffs can be beneficial. Enter your Pokemon details to learn more about them!</p>
+        <p className="intro-paragraph">This is a Sleep Analysis tool meant to help you learn how to self-assess Pokemon that you catch in Pokemon Sleep. Depending on a Pokemon specialty, different buffs or debuffs can be beneficial. Enter your Pokemon details to learn more about them!</p>
       </div>
 
       {/* Pokémon Dropdown */}
