@@ -1,0 +1,407 @@
+{
+    "bulbasaur": {
+        "type": "grass",
+        "sleepType": "dozing",
+        "specialty": "ingredients",
+        "ingredients": {"1": "honey", "25":"soft potato", "60": "snoozy tomato"}
+    },
+    "ivysaur": {
+        "type": "grass",
+        "sleepType": "dozing",
+        "specialty": "ingredients",
+        "ingredients": {"1": "honey", "25":"soft potato", "60": "snoozy tomato"}
+    },
+    "venusaur": {
+        "type": "grass",
+        "sleepType": "dozing",
+        "specialty": "ingredients",
+        "ingredients": {"1": "honey", "25":"soft potato", "60": "snoozy tomato"}
+    },
+    "charmander": {
+        "type": "fire",
+        "sleepType": "snoozing",
+        "specialty": "ingredients",
+        "ingredients": {"1": "bean sausage", "25":"warming ginger", "60": "fiery herb"}
+    },
+    "charmeleon": {
+        "type": "fire",
+        "sleepType": "snoozing",
+        "specialty": "ingredients",
+        "ingredients": {"1": "bean sausage", "25":"warming ginger", "60": "fiery herb"}
+    },
+    "charizard": {
+        "type": "fire",
+        "sleepType": "snoozing",
+        "specialty": "ingredients",
+        "ingredients": {"1": "bean sausage", "25":"warming ginger", "60": "fiery herb"}
+    },
+    "squirtle": {
+        "type": "water",
+        "sleepType": "slumbering",
+        "specialty": "ingredients",
+        "ingredients": {"1": "moomoo milk", "25":"soothing cacao", "60": "bean sausage"}
+    },
+    "wartortle": {
+        "type": "water",
+        "sleepType": "slumbering",
+        "specialty": "ingredients",
+        "ingredients": {"1": "moomoo milk", "25":"soothing cacao", "60": "bean sausage"}
+    },
+    "blastoise": {
+        "type": "water",
+        "sleepType": "slumbering",
+        "specialty": "ingredients",
+        "ingredients": {"1": "moomoo milk", "25":"soothing cacao", "60": "bean sausage"}
+    },
+    "caterpie": {
+        "type": "bug",
+        "sleepType": "dozing",
+        "specialty": "berries"
+    },
+    "metapod": {
+        "type": "bug",
+        "sleepType": "dozing",
+        "specialty": "berries"
+    },
+    "butterfree": {
+        "type": "bug",
+        "sleepType": "dozing",
+        "specialty": "berries"
+    },
+    "rattata": {
+        "type": "normal",
+        "sleepType": "snoozing",
+        "specialty": "berries"
+    },
+    "raticate": {
+        "type": "normal",
+        "sleepType": "snoozing",
+        "specialty": "berries"
+    },
+    "ekans": {
+        "type": "poison",
+        "sleepType": "dozing",
+        "specialty": "berries"
+    },
+    "arbok": {
+        "type": "poison",
+        "sleepType": "dozing",
+        "specialty": "berries"
+    },
+    "pikachu": {
+        "type": "electric",
+        "sleepType": "snoozing",
+        "specialty": "berries",
+        "ingredients": {"1": "fancy apple", "25":"warming ginger", "60": "fancy egg"}
+    },
+    "raichu": {
+        "type": "electric",
+        "sleepType": "snoozing",
+        "specialty": "berries",
+        "ingredients": {"1": "fancy apple", "25":"warming ginger", "60": "fancy egg"}
+    },
+    "clefairy": {
+        "type": "fairy",
+        "sleepType": "snoozing",
+        "specialty": "berries"
+    },
+    "clefable": {
+        "type": "fairy",
+        "sleepType": "snoozing",
+        "specialty": "berries"
+    },
+    "vulpix": {
+        "type": "fire",
+        "sleepType": "snoozing",
+        "specialty": "berries"
+    },
+    "ninetales": {
+        "type": "fire",
+        "sleepType": "snoozing",
+        "specialty": "berries"
+    },
+    "jigglypuff": {
+        "type": "fairy",
+        "sleepType": "snoozing",
+        "specialty": "skills"
+    },
+    "wigglytuff": {
+        "type": "fairy",
+        "sleepType": "snoozing",
+        "specialty": "skills"
+    },
+    "diglett": {
+        "type": "ground",
+        "sleepType": "snoozing",
+        "specialty": "ingredients"
+    },
+    "dugtrio": {
+        "type": "ground",
+        "sleepType": "snoozing",
+        "specialty": "ingredients"
+    },
+    "meowth": {
+        "type": "normal",
+        "sleepType": "snoozing",
+        "specialty": "skills"
+    },
+    "persian": {
+        "type": "normal",
+        "sleepType": "snoozing",
+        "specialty": "skills"
+    },
+    "psyduck": {
+        "type": "water",
+        "sleepType": "dozing",
+        "specialty": "skills"
+    },
+    "golduck": {
+        "type": "water",
+        "sleepType": "slumbering",
+        "specialty": "skills"
+    },
+    "mankey": {
+        "type": "fighting",
+        "sleepType": "dozing",
+        "specialty": "berries"
+    },
+    "primeape": {
+        "type": "fighting",
+        "sleepType": "dozing",
+        "specialty": "berries"
+    },
+    "growlithe": {
+        "type": "fire",
+        "sleepType": "snoozing",
+        "specialty": "skills"
+    },
+    "arcanine": {
+        "type": "fire",
+        "sleepType": "snoozing",
+        "specialty": "skills"
+    },
+    "bellsprout": {
+        "type": "grass",
+        "sleepType": "dozing",
+        "specialty": "ingredients"
+    },
+    "weepinbell": {
+        "type": "grass",
+        "sleepType": "dozing",
+        "specialty": "ingredients"
+    },
+    "victreebel": {
+        "type": "grass",
+        "sleepType": "dozing",
+        "specialty": "ingredients"
+    },
+    "geodude": {
+        "type": "rock",
+        "sleepType": "slumbering",
+        "specialty": "ingredients"
+    },
+    "graveler": {
+        "type": "rock",
+        "sleepType": "slumbering",
+        "specialty": "ingredients"
+    },
+    "golem": {
+        "type": "rock",
+        "sleepType": "slumbering",
+        "specialty": "ingredients"
+    },
+    "slowpoke": {
+        "type": "water",
+        "sleepType": "snoozing",
+        "specialty": "skills"
+    },
+    "slowbro": {
+        "type": "water",
+        "sleepType": "snoozing",
+        "specialty": "skills"
+    },
+    "magnemite": {
+        "type": "steel",
+        "sleepType": "slumbering",
+        "specialty": "skills"
+    },
+    "magneton": {
+        "type": "steel",
+        "sleepType": "slumbering",
+        "specialty": "skills"
+    },
+    "doduo": {
+        "type": "flying",
+        "sleepType": "slumbering",
+        "specialty": "berries"
+    },
+    "dodrio": {
+        "type": "flying",
+        "sleepType": "slumbering",
+        "specialty": "berries"
+    },
+    "gastly": {
+        "type": "ghost",
+        "sleepType": "dozing",
+        "specialty": "ingredients"
+    },
+    "haunter": {
+        "type": "ghost",
+        "sleepType": "dozing",
+        "specialty": "ingredients"
+    },
+    "gengar": {
+        "type": "ghost",
+        "sleepType": "dozing",
+        "specialty": "ingredients"
+    },
+    "onix": {
+        "type": "rock",
+        "sleepType": "slumbering",
+        "specialty": "berries"
+    },
+    "cubone": {
+        "type": "ground",
+        "sleepType": "slumbering",
+        "specialty": "berries"
+    },
+    "marowak": {
+        "type": "ground",
+        "sleepType": "slumbering",
+        "specialty": "berries"
+    },
+    
+    "kangaskhan": {
+        "type": "normal",
+        "sleepType": "snoozing",
+        "specialty": "ingredients"
+    },
+    
+    "mr-mime": {
+        "type": "psychic",
+        "sleepType": "snoozing",
+        "specialty": "ingredients"
+    },
+    
+    "pinsir": {
+        "type": "bug",
+        "sleepType": "dozing",
+        "specialty": "ingredients"
+    },
+    
+    "ditto": {
+        "type": "normal",
+        "sleepType": "snoozing",
+        "specialty": "ingredients",
+        "ingredients": {"1": "pure oil", "25":"large leek", "60": "slowpoke tail"}
+    },
+    
+    "eevee": {
+        "type": "normal",
+        "sleepType": "snoozing",
+        "specialty": "skills"
+    },
+    
+    "vaporeon": {
+        "type": "water",
+        "sleepType": "slumbering",
+        "specialty": "skills"
+    },
+    
+    "jolteon": {
+        "type": "electric",
+        "sleepType": "snoozing",
+        "specialty": "skills"
+    },
+    
+    "flareon": {
+        "type": "fire",
+        "sleepType": "snoozing",
+        "specialty": "skills"
+    },
+    
+    "dratini": {
+        "type": "dragon",
+        "sleepType": "dozing",
+        "specialty": "ingredients"
+    },
+    
+    "dragonair": {
+        "type": "dragon",
+        "sleepType": "dozing",
+        "specialty": "ingredients"
+    },
+    
+    "dragonite": {
+        "type": "dragon",
+        "sleepType": "dozing",
+        "specialty": "ingredients"
+    },
+    
+    "chikorita": {
+        "type": "grass",
+        "sleepType": "dozing",
+        "specialty": "berries"
+    },
+    
+    "bayleef": {
+        "type": "grass",
+        "sleepType": "dozing",
+        "specialty": "berries"
+    },
+    
+    "meganium": {
+        "type": "grass",
+        "sleepType": "dozing",
+        "specialty": "berries"
+    },
+    
+    "cyndaquil": {
+        "type": "fire",
+        "sleepType": "snoozing",
+        "specialty": "berries"
+    },
+    
+    "quilava": {
+        "type": "fire",
+        "sleepType": "snoozing",
+        "specialty": "berries"
+    },
+    
+    "typhlosion": {
+        "type": "fire",
+        "sleepType": "snoozing",
+        "specialty": "berries"
+    },
+    
+    "totodile": {
+        "type": "water",
+        "sleepType": "slumbering",
+        "specialty": "berries"
+    },
+    
+    "croconaw": {
+        "type": "water",
+        "sleepType": "slumbering",
+        "specialty": "berries"
+    },
+    
+    "feraligatr": {
+        "type": "water",
+        "sleepType": "slumbering",
+        "specialty": "berries"
+    },
+    
+    "pichu": {
+        "type": "electric",
+        "sleepType": "slumbering",
+        "specialty": "berries"
+    },
+
+    "vikavolt": {
+        "type": "bug",
+        "sleepType": "dozing",
+        "specialty": "ingredients"
+    }
+    
+}

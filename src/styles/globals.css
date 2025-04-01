@@ -1,42 +1,289 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
+/* General Resets */
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
+  font-family: 'Inter', sans-serif;
   margin: 0;
+  padding: 0;
+  background-color: #f9fafb;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center; /* Centers the page */
+  align-items: flex-start; /* Ensures content starts from the top */
+  min-height: 100vh; /* Allow content to exceed viewport height */
+  overflow-y: auto; /* Allows scrolling when content overflows */
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.container {
+  max-width: 1800px;
+  min-height: 70vh;
+  margin: 60px auto; /* Reduced margin */
+  padding: 15px; /* Reduced padding */
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+  display: grid;
+  grid-template-columns: 1fr 300px; /* Two columns layout */
+  grid-template-rows: auto 1fr; /* Auto height for the top section, and remaining space for cards */
+  gap: 15px; /* Reduced gap */
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+/* Hover effect for container */
+.container:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  text-align: center;
+  color: #222;
+  font-size: clamp(2.2rem, 5vw, 3.2rem); /* Slightly larger font size */
+  margin-bottom: 15px; /* Reduced margin */
+}
+
+.intro-paragraph {
+  margin-top: 10px;
+  font-size: clamp(1.1rem, 3vw, 1.7rem); /* Slightly larger font size */
+  color: #333;
+  text-align: center;
+}
+
+/* Input Group Styling */
+.input-group {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Reduced gap */
+  min-width: 300px; /* Ensure a minimum width for the input group */
+  max-width: 600px; /* Optional: Max width to prevent it from becoming too large */
+  transition: background-color 0.3s, border-color 0.3s;
+  padding: 10px; /* Adjusted padding */
+  border-radius: 10px;
+}
+
+.nature-details {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Reduced gap */
+  min-width: 300px; /* Ensure a minimum width for the input group */
+  max-width: 600px; /* Optional: Max width to prevent it from becoming too large */
+  transition: background-color 0.3s, border-color 0.3s;
+  padding: 10px; /* Adjusted padding */
+  border-radius: 10px;
+  margin: 40px; /* Reduced margin */
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px; /* Reduced margin */
+  font-size: 1.1rem; /* Slightly larger font size */
+  color: #444;
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1rem; /* Slightly larger font size */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: border-color 0.2s;
+}
+
+select:focus {
+  outline: none;
+  border-color: #3bb4ff;
+}
+
+/* Pokémon Details Styling */
+.pokemon-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 12px; /* Slightly reduced gap */
+}
+
+.pokemon-details img {
+  max-width: 200px;
+  height: 200px; /* Set both width and height */
+  object-fit: contain; /* Ensure the image scales to fit */
+  display: block;
+  margin: 0 auto; /* Center the image */
+}
+
+.pokemon-details p {
+  font-size: 1.1rem; /* Slightly larger font size */
+  color: #444;
+}
+
+/* Nature/Subskill Card Layout */
+.card {
+  background-color: #f7f8fc;
+  padding: 18px; /* Reduced padding */
+  margin: 15px 0; /* Reduced margin */
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.beneficial {
+  background-color: #D4EDDA; /* Green */
+  border: 2px solid #28A745;
+}
+
+.neutral {
+  background-color: #FFF3CD; /* Yellow */
+  border: 2px solid #FFC107;
+}
+
+.detrimental {
+  background-color: #F8D7DA; /* Red */
+  border: 2px solid #DC3545;
+}
+
+
+.description {
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* Responsive Design for Desktop (2 or 3 Columns Layout) */
+@media (min-width: 768px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns layout */
   }
+
+  .card, .input-group {
+    margin-bottom: 15px; /* Reduced bottom margin */
+  }
+
+  /* If you prefer a 3-column layout for more space */
+  @media (min-width: 1024px) {
+    .container {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns layout */
+    }
+  }
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: 12px; /* Reduced padding */
+    grid-template-columns: 1fr; /* Single column on mobile */
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  select {
+    padding: 10px;
+    font-size: 1rem; /* Adjusted font size */
+  }
+
+  .description {
+    font-size: 0.9rem; /* Slightly larger description font */
+  }
+
+  /* Adjust input group positioning */
+  .input-group {
+    width: 100%; /* Full width on mobile */
+    margin-top: 18px; /* Reduced margin */
+  }
+}
+
+/* Large Screen (4K and large desktop adjustments) */
+@media (min-width: 1440px) {
+  .container {
+    max-width: 80vw; /* Max width for large screens */
+    padding: 40px;
+    gap: 30px; /* Increased gap between elements */
+  }
+
+  h1 {
+    font-size: 3rem; /* Larger font size for 4K */
+  }
+
+  .intro-paragraph {
+    font-size: 1.5rem; /* Larger paragraph font size */
+  }
+
+  .input-group select {
+    padding: 16px;
+    font-size: 1.2rem; /* Larger select font size */
+  }
+
+  .pokemon-details img {
+    max-width: 180px; /* Larger image size for 4K */
+  }
+
+  .card {
+    padding: 25px; /* Reduced padding */
+    margin: 25px 0; /* More spacing on larger screens */
+  }
+
+  .card h2 {
+    font-size: 1.4rem; /* Larger card title font */
+  }
+}
+
+/* Ingredients */
+/* Card Container */
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Level Section */
+.level {
+  margin-bottom: 20px;
+}
+
+.level-label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #555;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Ingredients Container */
+.ingredients-container {
+  display: flex;
+  gap: 10px;
+  justify-content: left;
+}
+
+/* Ingredient Image */
+.ingredient {
+  width: 60px; /* Smaller size */
+  height: 60px;
+  object-fit: contain;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.ingredient:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Selected Ingredient */
+.ingredient.selected {
+  border: 3px solid #3bb4ff;
 }
